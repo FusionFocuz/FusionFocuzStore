@@ -1,0 +1,189 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+ 
+html{
+	background:url("../images/fufz2.png")repeat;
+	 
+
+	
+}
+
+html,
+body {
+  height: auto;
+  background:url("../images/fufz2.png")repeat;
+	background-color:#d21d1d;
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+   font-family: 'Crimson Pro';
+}
+
+.cover-container {
+  max-width: 100%;
+}
+
+
+body{
+	
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+  padding:20px;
+  background:rgba(23, 31, 37, 0.5);
+}
+.masthead img{ max-width:100px; width:100%; }
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead{
+	padding-top:20px;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  font-size:12px;
+  text-transform:uppercase;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+.ff_banner{
+	width:100%;
+}
+.ff_banner img{
+	width:100%;
+}
+
+.ff_about_content{
+	padding:50px 20px;
+}
+.ff_product_box {
+	padding:15px 15px;
+	margin-bottom:20px;
+	position:relative;
+}
+.ff_product_list {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.ff_product_box:after{
+	content:" ";
+	position:absolute;
+	width:100%;
+	height:35px;
+	background:url("../images/fusion_prd.png") no-repeat;
+	top: 22px;
+	left: 21px;
+	background-size: 100px auto;
+}
+.ff_product_box img{
+	width:100%;
+	/*background-image: linear-gradient(45deg, #171715 25%, #ffffff 25%, #ffffff 50%, #171715 50%, #171715 75%, #ffffff 75%, #ffffff 100%);
+background-size: 28.28px 28.28px;*/
+border:2px solid #000;
+padding:0px;
+	border-radius:10px;
+	box-shadow: 10px 10px 15px #821616;
+}
+.ff_p_head{
+	width:100%;
+	padding:5px 10px;
+	
+
+  
+}
+.ff_product_box h4{
+	
+	
+	width:100%;
+	margin-bottom:0px;
+	
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+.wow{ visibility:hidden; }
+
+
+@media only screen and (max-width: 767px) {
+	
+	h1{ font-size:30px; }
+	.ff_about_content p{ font-size:16px; line-height:22px; }
+	.ff_product_box{ padding-right:5px; padding-left:5px; margin-bottom:10px;   }
+	.ff_product_box h4{ font-size:20px; }
+}
