@@ -153,13 +153,16 @@ padding:0px;
 	margin-bottom:0px;
 	
 }
-
+.ff_instagram {
+	text-align:center;
+}
 .ff_instagram h4 {
-	color:#fff;
+	color: #fff;
 }
 .ff_instagram img {
-	width:100px;
+	width:50px;
 	margin-bottom:10px;
+	display:inline-block;
 }
 
 @media (min-width: 48em) {
