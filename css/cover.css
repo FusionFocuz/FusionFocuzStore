@@ -154,8 +154,16 @@ padding:0px;
 	
 }
 
+.ff_instagram h4 {
+	color:#fff;
+}
+.ff_instagram img {
+	width:100px;
+	margin-bottom:10px;
+}
+
 @media (min-width: 48em) {
-  .masthead-brand {
+	.masthead-brand {
     float: left;
   }
   .nav-masthead {
